@@ -1,0 +1,25 @@
+$background-color: #fff;
+$border-color: #e2e2e2;
+$border-size: 1px;
+
+$base-border: $border-size solid $border-color;
+
+.date-picker {
+  background: $background-color;
+  border: $base-border;
+
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__control {
+    font-size: 1em;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
